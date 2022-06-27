@@ -1,1 +1,28 @@
 # Your code here!
+def greet_programmer
+    puts "Hello, programmer!"
+end
+
+def greet(name)
+    puts "Hello, #{name}!" 
+end
+
+def greet_with_default(name = "programmer")
+    puts "Hello, #{name}!"
+end
+
+def add(num1,num2)
+    puts num1 + num2
+    num1 + num2
+end
+
+def halve(num)
+    if num.class != Integer
+        return nil
+    end
+    puts num/ 2
+    num / 2
+end
+
+add(1,1)
+halve(1)
